@@ -1,0 +1,576 @@
+@font-face {
+  font-family: 'Work Sans', sans-serif;
+}
+body{
+	font-family: Work Sans;
+}
+/*Generales*/
+.bg_blanco{
+	background-color: white;
+}
+.letra_blanca{
+	color: white;
+}
+.seccion_padding{
+	padding: 35px 0;
+}
+.margin_0_auto{
+	margin: 0 auto;
+}
+.padding_0{
+	padding: 0;
+}
+.position_relative{
+	position: relative;
+}
+.margin_bottom_none{
+	margin-bottom: 0;
+}
+/*Generales*/
+/*Head*/
+.fondo_img_brand_navbar{
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	padding: 0 5px;
+	padding-top: 25px;
+	padding-bottom: 18px;
+	top: 0;
+}
+.img_brand_navbar{
+	width: 70px;
+}
+.div_menu_principal{
+	background-color: #731b1b33;
+	position: fixed;
+	top: 0;
+	z-index: 9;
+}
+.collapse .navbar-collapse {
+	margin: 0 4em 2px 2px;
+}
+.nav_menu_principal{
+	padding-top: 50px;
+}
+.tag_enlace_menu{
+	padding: 12px 15px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+	border-bottom: 2px solid;
+	border-color: transparent;
+}
+.tag_enlace_menu:hover{
+	text-decoration: none;
+	border-color: #a5141c;
+	color: white;
+}
+/*Head*/
+/*footer*/
+footer{
+	background-color: #282828;
+}
+.tag_texto_item_footer{
+	margin-bottom: 0;
+	font-size: 1em;
+	display: block;
+	color: white;
+}
+.tag_texto_item_footer_margin{
+	margin-bottom: 25px;
+}
+.tag_texto_item_footer_opacity{
+	opacity: 0.5;
+}
+.tag_enlace_footer_redes{
+	color: #282828;
+	background-color: white;
+	padding: 10px 20px; 
+	border-radius: 50%;
+	position: relative;
+	margin: 0 5px;
+	opacity: 0.5;
+}
+.tag_enlace_footer_redes:hover{
+	color: white;
+	opacity: 1;
+}
+.tag_fa_footer_redes{
+	font-size: 1.4em;
+	color: #282828;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+#tag_texto_item_footer_copyright{
+	margin-top: 15px;
+}
+.tag_texto_item_footer_contacto{
+	font-size: 1.1em;
+	margin-bottom: 8px;
+}
+.tag_fa_footer_contacto{
+	font-size: 1.3em;
+	margin-right: 8px;
+	min-width: 21px;
+}
+/*footer*/
+/*Index*/
+.tag_titulo_secciones{
+	font-weight: bold;
+	font-size: 1.7em;
+}
+.tag_titulo_secciones_white{
+	color: white;
+}
+.tag_titulo_secciones_black{
+	color: #282828;
+}
+.tag_titulo_secciones_black span{
+	color: #a5141c;
+}
+.tag_subtitulo_secciones{
+	font-weight: bold;
+	font-size: 1.2em;
+	line-height: 1;
+}
+.tag_subtitulo_secciones_black{
+	color: #282828;
+}
+.tag_subtitulo_secciones_black span{
+	color: #a5141c;
+}
+
+#seccion_banner_index{
+	overflow: hidden;
+}
+.div_diagonal{
+	position: absolute;
+	width: 150%;
+	left: 0;
+	bottom: 0;
+	height: 200px;
+	background-color: rgba(255,255,255,0.5);
+    -ms-transform: skewY(-20deg); /* IE 9 */
+    -webkit-transform: skewY(-20deg); /* Safari 3-8 */
+    transform: skewY(-20deg);
+    display: none;
+}
+
+#seccion_servicios{
+
+}
+.div_contenedor_items_servicios{
+	padding-top: 50px;
+}
+.div_item_servicios_out{
+
+}
+.tag_nombre_servicios{
+	color: #282828;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.tag_rayita_nombre_servicios{
+	width: 60px;
+	margin: 0 auto;
+	border-bottom: 3px solid;
+	border-color: transparent;
+	transition: 0.4s all;
+}
+.div_item_servicios_out:hover > .tag_rayita_nombre_servicios{
+	border-color: #8f2a88;
+}
+.div_item_servicios{
+	background-color: #bcbcbc;
+	text-align: center;
+	margin: 0 auto;
+	width: 95%;
+	padding: 30px 0;
+	border-radius: 15px;
+	transition: 0.4s all;
+}
+.div_item_servicios:hover{
+	background-color: #8f2a88;
+}
+.img_item_servicios{
+	width: 100px;
+	margin: 0 auto;
+}
+.triangulo_item_servicios{
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid;
+	border-top-color: #bcbcbc;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	position: absolute;
+	transform: translate(-50%,0);
+	left: 50%;
+	bottom: -15px;
+	transition: 0.4s all;
+}
+.div_item_servicios:hover > .triangulo_item_servicios{
+	border-top-color: #8f2a88;
+}
+.div_contenedor_detalles_servicios{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.img_detalle_servicios{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.tag_titulo_detalle_servicio{
+	color: #282828;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.tag_titulo_detalle_servicio span{
+	color: #8f2a88;
+}
+.tag_descripcion_detalle_servicio{
+	color: #545454;
+	text-align: justify;
+	line-height: 1;
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+.tag_caracteristicas_detalle_servicio{
+	color: #545454;
+	text-align: justify;
+	line-height: 1;
+	font-size: 0.9em;
+	margin-bottom: 9px;
+}
+.tag_caracteristicas_detalle_servicio i{
+	color: #8f2a88;
+	margin-right: 4px;
+}
+.div_botones_detalle_servicio{
+	text-align: right;
+	margin-top: 20px;
+}
+.tag_enlace_servicios{
+	background-color: #8f2a88;
+	color: white;
+	border: 2px solid;
+	border-color: #8f2a88;
+	font-size: 1.2em;
+}
+.tag_enlace_servicios:hover{
+	background-color: white;
+	color: #8f2a88;
+}
+.tag_enlace_servicios_2{
+	background-color: white;
+	color: #8f2a88;
+	border: 2px solid;
+	border-color: #8f2a88;
+	font-size: 1.2em;
+}
+.tag_enlace_servicios_2:hover{
+	background-color: #8f2a88;
+	color: white;
+}
+
+#seccion_quienes_somos{
+	background-image: url('../image/bg-quienes-somos.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+}
+.tag_texto_quienes_somos{
+	color: white;
+	text-align: justify;
+	font-size: 1em;
+}
+.div_circulo_contadores{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.8);
+	border: 3px solid;
+	border-color: rgba(188,188,188,0.8);
+	position: relative;
+	margin: 0 auto;
+}
+.tag_numero_contadores{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top: 50%;
+	color: white;
+	font-size: 4.5em;
+	margin: 0;
+	line-height: 1;
+}
+.tag_nombre_contadores{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	font-size: 1.2em;
+	line-height: 1;
+}
+
+#seccion_testimonios{
+	background-color: #282828;
+}
+#div_contenedor_testimonios{
+	margin-top: 35px;
+}
+.div_item_testimonios{
+
+}
+.img_persona_testimonio{
+	width: 100%;
+	margin: 0 auto;
+}
+.div_contenido_testimonios{
+	background-color: white;
+	text-align: center;
+}
+.tag_nombre_testimonio{
+	color: #282828;
+	font-size: 1.6em;
+	margin-bottom: 0px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 35px;
+}
+.tag_asunto_testimonio{
+	color: #a5141c;
+	font-size: 1.4em;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1;
+}
+.tag_texto_testimonio{
+	color: #282828;
+	text-align: justify;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+
+#seccion_clientes{
+
+}
+.img_logo_clientes{
+	width: 100%;
+}
+
+#seccion_contacto{
+
+}
+.tag_indicador_form{
+	font-weight: bold;
+	color: #282828;
+	font-size: 0.9em;
+}
+.form-control-mine{
+	resize: none;
+	margin-bottom: 10px;
+	border-color: #b5b5b5;
+	color: #a5141c;
+}
+.btn-form-mine{
+	background-color: #a5141c;
+	color: white;
+}
+.btn-form-mine:hover{
+	background-color: #282828;
+	color: white;
+}
+#txt_mensaje{
+	min-height: 130px;
+}
+#btn_enviar{
+	min-width: 150px;
+	font-size: 1.2em;
+}
+.img_persona_contacto{
+	width: 100%;
+}
+/*Index*/
+
+
+/*67%*/
+@media screen and (max-width: 2052px){
+					
+}
+/*75%*/
+@media screen and (max-width: 1822px){
+	
+}
+/*90%*/
+@media screen and (max-width: 1518px){
+			
+}
+/*100%*/
+@media screen and (max-width: 1366px){
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199px) {  
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+	.div_item_servicios{
+		width: 100%;
+	}
+	.img_item_servicios{
+		width: 60px;
+	}
+	.tag_nombre_servicios{
+		font-size: 1em;
+	}
+	.div_botones_detalle_servicio{
+		text-align: left;
+	}
+	.tag_enlace_servicios{
+		font-size: 1em;
+	}
+	.tag_enlace_servicios_2{
+		font-size: 1em;
+	}
+	.tag_titulo_detalle_servicio{
+		font-size: 1.3em;
+		margin-bottom: 15px;
+	}
+	#seccion_quienes_somos{
+		padding: 35px 0;
+	}
+	.div_circulo_contadores{
+		width: 130px;
+		height: 130px;
+	}
+	.tag_numero_contadores{
+		font-size: 3.2em;
+	}
+	.tag_nombre_contadores{
+		font-size: 1em;
+	}
+	.tag_texto_quienes_somos{
+		margin-bottom: 30px;
+		line-height: 1;
+		font-size: 0.9em;
+	}
+	.img_persona_testimonio{
+		width: 200px;
+	}
+	.tag_nombre_testimonio{
+		font-size: 1.1em;
+	}
+	.tag_asunto_testimonio{
+		font-size: 1em;
+	}
+	.tag_texto_testimonio{
+		line-height: 1;
+		font-size: 0.9em;
+	}
+	.div_item_footer_margin{
+		margin-top: 20px;
+	}
+}
+/* Large devices (desktops, 992px and up) */
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 767px) {  
+	.div_item_servicios{
+		padding: 20px 0;
+	}
+	.img_item_servicios{
+		width: 48px;
+	}
+	.tag_nombre_servicios{
+		font-size: 0.9em;
+	}
+	.div_circulo_contadores{
+		width: 90px;
+		height: 90px;
+	}
+	.tag_numero_contadores{
+		font-size: 2.4em;
+	}
+	.tag_nombre_contadores{
+		font-size: 0.9em;
+	}
+	.img_persona_testimonio{
+		width: 150px;
+	}	
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {  
+	.div_item_servicios{
+		padding: 15px 0;
+	}
+	.img_item_servicios{
+		width: 35px;
+	}
+	.triangulo_item_servicios{
+		border-top: 10px solid;
+		border-top-color: #bcbcbc;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;		
+		bottom: -10px;
+	}
+	.tag_nombre_servicios{
+		margin-top: 20px;
+		margin-bottom: 5px;
+		font-size: 0.8em;
+	}
+	.tag_rayita_nombre_servicios{
+		border-bottom: 1px solid;
+		border-color: transparent;
+	}
+	.tag_titulo_detalle_servicio{
+		font-size: 1.2em;
+		margin-bottom: 8px;
+	}
+	.tag_descripcion_detalle_servicio{
+		font-size: 0.9em;
+	}
+	.tag_caracteristicas_detalle_servicio{
+		font-size: 0.8em;
+	}
+	.div_circulo_contadores{
+		width: 50px;
+		height: 50px;
+		border: 2px solid;
+		border-color: rgba(188,188,188,0.8);		
+	}
+	.tag_numero_contadores{
+		font-size: 1.5em;
+	}
+	.tag_nombre_contadores{
+		font-size: 0.8em;
+	}
+	#seccion_testimonios{
+		padding-bottom: 0;
+	}
+}
+/* Small devices (landscape phones, 576px and up) */
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
