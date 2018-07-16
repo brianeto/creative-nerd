@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/fontawesome-all.css">	
 	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/animations.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>scss/style.scss">
 </head>
 <body>
 	<input type="hidden" value="<?php echo $path; ?>" id="txt_path">
@@ -22,9 +22,27 @@
 						<li class="nav-item active">
 							<a class="tag_enlace_menu" href="/">HOME</a>
 						</li>
-						<li class="nav-item">
-							<a class="tag_enlace_menu" href="#">SERVICIOS</a>
-						</li>
+						<div class="dropdown">
+							<a class="dropdown-toggle tag_enlace_menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								SERVICIOS
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							<li>
+								<a class="dropdown-item" href="#">Digital Agency
+								</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="#">Training</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="#">Promocional</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="#">Printing</a>
+							</li>
+							</div>
+						</div>
 						<li class="nav-item">
 							<a class="tag_enlace_menu" href="#">¿QUIÉNES SOMOS?</a>
 						</li>

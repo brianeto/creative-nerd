@@ -35,7 +35,7 @@
 ?>
 
 <section id="seccion_banner_index" class="position_relative">
-	<img class="d-block w-100" src="<?php echo $path; ?>image/bg-quienes-somos.png">
+	<img class="d-block w-100" src="<?php echo $path; ?>image/portada-home.png">
 	<div class="div_diagonal div_diagonal_white"></div>
 </section>
 
@@ -46,36 +46,32 @@
 		</p>
 		<div class="row div_contenedor_items_servicios">
 			<div class="col-3 text-center div_item_servicios_out">
-				<div class="div_item_servicios position_relative">
+				<div class="div_item_servicios position_relative_digital">
 					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios"></div>
 				</div>
 				<p class="tag_nombre_servicios">Digital Agency</p>
-				<hr class="tag_rayita_nombre_servicios">
+				<hr class="tag_rayita_nombre_servicios digital">
 			</div>
 			<div class="col-3 text-center div_item_servicios_out">
-				<div class="div_item_servicios position_relative">
+				<div class="div_item_servicios position_relative_training">
 					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios"></div>
 				</div>
 				<p class="tag_nombre_servicios">Training</p>
-				<hr class="tag_rayita_nombre_servicios">				
+				<hr class="tag_rayita_nombre_servicios training">				
 			</div>
 			<div class="col-3 text-center div_item_servicios_out">
-				<div class="div_item_servicios position_relative">
+				<div class="div_item_servicios position_relative_promocional">
 					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios"></div>
 				</div>
 				<p class="tag_nombre_servicios">Promocional</p>
-				<hr class="tag_rayita_nombre_servicios">				
+				<hr class="tag_rayita_nombre_servicios promocional">				
 			</div>
 			<div class="col-3 text-center div_item_servicios_out">
-				<div class="div_item_servicios position_relative">
+				<div class="div_item_servicios position_relative_printing	">
 					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios"></div>
 				</div>
 				<p class="tag_nombre_servicios">Printing</p>
-				<hr class="tag_rayita_nombre_servicios">					
+				<hr class="tag_rayita_nombre_servicios printing">					
 			</div>
 		</div>
 		<div class="row div_contenedor_detalles_servicios">
